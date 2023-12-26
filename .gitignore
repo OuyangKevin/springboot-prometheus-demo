@@ -1,5 +1,7 @@
 # Compiled class file
 *.class
+.idea/*
+*.lst
 
 # Log file
 *.log
@@ -18,7 +20,13 @@
 *.zip
 *.tar.gz
 *.rar
+*.idea
+*.iml
+
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# else
+target/

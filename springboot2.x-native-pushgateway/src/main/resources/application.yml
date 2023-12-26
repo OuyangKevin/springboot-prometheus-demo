@@ -1,0 +1,5 @@
+server:
+  port: 8086 # server port
+prometheus:
+  pushgateway:
+    endpoint: https://cn-hangzhou.arms.aliyuncs.com/prometheus/***/***/***/cn-hangzhou/api/v2

@@ -1,0 +1,17 @@
+server:
+  port: 8082 # server port
+management:
+  server:
+    port: 13142
+  endpoints:
+    web:
+      base-path: /actuator
+      exposure:
+        include: '*'
+    enabled-by-default: false
+  endpoint:
+    health:
+      show-details: always
+      enabled: true
+    prometheus:
+      enabled: true
